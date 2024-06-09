@@ -1,0 +1,462 @@
+{
+    "product": "PredictiveDB (Database)",
+    "roadmapItems": [
+      {
+        "title": "Release 1.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2023-03-01T00:00:00Z",
+        "endDate": "2023-03-02T00:00:00Z",
+        "style": "blue",
+        "source": "Internal",
+        "product": "PredictiveDB (Database)",
+        "description": "Initial release with real-time prediction engine and data mining tools.",
+        "children": [
+          {
+            "title": "Real-Time Prediction Engine",
+            "subType": "Feature",
+            "description": "Introducing real-time prediction capabilities.",
+            "children": [
+              {
+                "title": "Resolved latency issues in prediction queries.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems causing latency in prediction queries."
+              },
+              {
+                "title": "Fixed bugs in model deployment.",
+                "subType": "Bug Fix",
+                "description": "Corrected errors encountered during model deployment."
+              },
+              {
+                "title": "Added support for streaming data predictions.",
+                "subType": "Enhancement",
+                "description": "Introduced support for making predictions on streaming data."
+              },
+              {
+                "title": "Improved accuracy of real-time predictions.",
+                "subType": "Enhancement",
+                "description": "Enhanced the accuracy of real-time prediction models."
+              }
+            ]
+          },
+          {
+            "title": "Data Mining Tools",
+            "subType": "Feature",
+            "description": "Providing tools for data mining and preprocessing.",
+            "children": [
+              {
+                "title": "Corrected issues with data preprocessing modules.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with data preprocessing modules."
+              },
+              {
+                "title": "Fixed errors in association rule mining.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with association rule mining algorithms."
+              },
+              {
+                "title": "Introduced advanced clustering algorithms.",
+                "subType": "Enhancement",
+                "description": "Added new advanced clustering algorithms."
+              },
+              {
+                "title": "Added support for automated data cleaning.",
+                "subType": "Enhancement",
+                "description": "Introduced automated data cleaning features."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 1.2.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2023-08-01T00:00:00Z",
+        "endDate": "2023-08-02T00:00:00Z",
+        "style": "green",
+        "source": "Internal",
+        "product": "PredictiveDB (Database)",
+        "description": "Enhancements for visualization options and query performance.",
+        "children": [
+          {
+            "title": "Advanced Visualization Options",
+            "subType": "Feature",
+            "description": "Improving data visualization capabilities.",
+            "children": [
+              {
+                "title": "Resolved rendering issues in dashboard widgets.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting the rendering of dashboard widgets."
+              },
+              {
+                "title": "Fixed bugs in interactive charting tools.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with interactive charting tools."
+              },
+              {
+                "title": "Added support for multi-dimensional visualizations.",
+                "subType": "Enhancement",
+                "description": "Introduced support for visualizing data in multiple dimensions."
+              },
+              {
+                "title": "Improved user interface for custom dashboard creation.",
+                "subType": "Enhancement",
+                "description": "Enhanced the UI for creating custom dashboards."
+              }
+            ]
+          },
+          {
+            "title": "Enhanced Query Performance",
+            "subType": "Feature",
+            "description": "Improving the performance of complex queries.",
+            "children": [
+              {
+                "title": "Corrected slow response times for complex queries.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems causing slow response times for complex queries."
+              },
+              {
+                "title": "Fixed issues with query optimization.",
+                "subType": "Bug Fix",
+                "description": "Resolved problems with optimizing queries."
+              },
+              {
+                "title": "Introduced parallel query execution.",
+                "subType": "Enhancement",
+                "description": "Added support for executing queries in parallel."
+              },
+              {
+                "title": "Added advanced indexing techniques for faster queries.",
+                "subType": "Enhancement",
+                "description": "Introduced advanced indexing techniques to speed up queries."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 2.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2024-02-01T00:00:00Z",
+        "endDate": "2024-02-02T00:00:00Z",
+        "style": "red",
+        "source": "Internal",
+        "product": "PredictiveDB (Database)",
+        "description": "Major update with predictive model management, data source integration, and security.",
+        "children": [
+          {
+            "title": "Predictive Model Management",
+            "subType": "Feature",
+            "description": "Introducing features for managing predictive models.",
+            "children": [
+              {
+                "title": "Resolved issues with model versioning.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with versioning of predictive models."
+              },
+              {
+                "title": "Fixed bugs in model training workflows.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues affecting the workflows for training models."
+              },
+              {
+                "title": "Added support for model comparison and selection.",
+                "subType": "Enhancement",
+                "description": "Introduced features for comparing and selecting models."
+              },
+              {
+                "title": "Implemented automated model retraining based on new data.",
+                "subType": "Enhancement",
+                "description": "Added support for automatic retraining of models when new data is available."
+              }
+            ]
+          },
+          {
+            "title": "Integration with Data Sources",
+            "subType": "Feature",
+            "description": "Enhancing integration capabilities with various data sources.",
+            "children": [
+              {
+                "title": "Corrected issues with data source connectivity.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting connectivity with data sources."
+              },
+              {
+                "title": "Fixed bugs in data import processes.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with importing data from various sources."
+              },
+              {
+                "title": "Added support for integration with popular data lakes.",
+                "subType": "Enhancement",
+                "description": "Introduced support for integrating with popular data lakes."
+              },
+              {
+                "title": "Improved data synchronization with external databases.",
+                "subType": "Enhancement",
+                "description": "Enhanced synchronization of data with external databases."
+              }
+            ]
+          },
+          {
+            "title": "Security and Compliance",
+            "subType": "Feature",
+            "description": "Improving security and compliance features.",
+            "children": [
+              {
+                "title": "Resolved vulnerabilities in data encryption.",
+                "subType": "Bug Fix",
+                "description": "Fixed security vulnerabilities in data encryption processes."
+              },
+              {
+                "title": "Fixed issues with user authentication.",
+                "subType": "Bug Fix",
+                "description": "Resolved problems with user authentication methods."
+              },
+              {
+                "title": "Implemented role-based access control.",
+                "subType": "Enhancement",
+                "description": "Added role-based access control for better security."
+              },
+              {
+                "title": "Added support for GDPR and HIPAA compliance.",
+                "subType": "Enhancement",
+                "description": "Introduced features to support GDPR and HIPAA compliance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 2.4.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2024-09-01T00:00:00Z",
+        "endDate": "2024-09-02T00:00:00Z",
+        "style": "purple",
+        "source": "Internal",
+        "product": "PredictiveDB (Database)",
+        "description": "Enhancements in scalability and data pipeline automation.",
+        "children": [
+          {
+            "title": "Scalability Enhancements",
+            "subType": "Feature",
+            "description": "Improving scalability to handle higher loads.",
+            "children": [
+              {
+                "title": "Resolved performance issues under high load.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting performance under high load conditions."
+              },
+              {
+                "title": "Fixed bugs in distributed computing framework.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with the distributed computing framework."
+              },
+              {
+                "title": "Improved horizontal scaling capabilities.",
+                "subType": "Enhancement",
+                "description": "Enhanced capabilities for horizontal scaling."
+              },
+              {
+                "title": "Added support for auto-scaling based on workload.",
+                "subType": "Enhancement",
+                "description": "Introduced auto-scaling features to adjust based on workload."
+              }
+            ]
+          },
+          {
+            "title": "Data Pipeline Automation",
+            "subType": "Feature",
+            "description": "Automating data pipeline processes for efficiency.",
+            "children": [
+              {
+                "title": "Corrected errors in ETL processes.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting ETL processes."
+              },
+              {
+                "title": "Fixed issues with pipeline scheduling.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with scheduling data pipelines."
+              },
+              {
+                "title": "Introduced drag-and-drop pipeline builder.",
+                "subType": "Enhancement",
+                "description": "Added a drag-and-drop interface for building data pipelines."
+              },
+              {
+                "title": "Added support for real-time data pipelines.",
+                "subType": "Enhancement",
+                "description": "Introduced support for real-time data pipelines."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 3.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2025-04-01T00:00:00Z",
+        "endDate": "2025-04-02T00:00:00Z",
+        "style": "orange",
+        "source": "Internal",
+        "product": "PredictiveDB (Database)",
+        "description": "Major update with AI-powered insights, enhanced user experience, and advanced analytics.",
+        "children": [
+          {
+            "title": "AI-Powered Insights",
+            "subType": "Feature",
+            "description": "Introducing AI-driven insights for better predictions and maintenance.",
+            "children": [
+              {
+                "title": "Resolved issues with anomaly detection algorithms.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with anomaly detection algorithms."
+              },
+              {
+                "title": "Fixed bugs in trend analysis tools.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with trend analysis tools."
+              },
+              {
+                "title": "Introduced AI-driven insights for predictive maintenance.",
+                "subType": "Enhancement",
+                "description": "Added AI-driven insights to improve predictive maintenance."
+              },
+              {
+                "title": "Added support for natural language query interfaces.",
+                "subType": "Enhancement",
+                "description": "Introduced support for querying data using natural language."
+              }
+            ]
+          },
+          {
+            "title": "Enhanced User Experience",
+            "subType": "Feature",
+            "description": "Improving the user experience with a new intuitive interface.",
+            "children": [
+              {
+                "title": "Corrected UI inconsistencies across modules.",
+                "subType": "Bug Fix",
+                "description": "Fixed inconsistencies in the user interface across different modules."
+              },
+              {
+                "title": "Fixed bugs in user customization settings.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues affecting user customization settings."
+              },
+              {
+                "title": "Implemented a new intuitive user interface.",
+                "subType": "Enhancement",
+                "description": "Introduced a new user interface for better usability."
+              },
+              {
+                "title": "Added support for personalized user dashboards.",
+                "subType": "Enhancement",
+                "description": "Introduced features for creating personalized dashboards."
+              }
+            ]
+          },
+          {
+            "title": "Advanced Analytics",
+            "subType": "Feature",
+            "description": "Enhancing analytics capabilities with advanced tools.",
+            "children": [
+              {
+                "title": "Resolved issues with time series analysis.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting time series analysis."
+              },
+              {
+                "title": "Fixed bugs in regression model predictions.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with predictions from regression models."
+              },
+              {
+                "title": "Introduced advanced statistical analysis tools.",
+                "subType": "Enhancement",
+                "description": "Added new tools for advanced statistical analysis."
+              },
+              {
+                "title": "Added support for deep learning model integration.",
+                "subType": "Enhancement",
+                "description": "Introduced support for integrating deep learning models."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 3.3.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2025-11-01T00:00:00Z",
+        "endDate": "2025-11-02T00:00:00Z",
+        "style": "green",
+        "source": "Internal",
+        "product": "PredictiveDB (Database)",
+        "description": "Enhancements for customizable alerts and cross-platform integration.",
+        "children": [
+          {
+            "title": "Customizable Alerts and Notifications",
+            "subType": "Feature",
+            "description": "Introducing features for customizable alerts and notifications.",
+            "children": [
+              {
+                "title": "Resolved issues with alert configurations.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with configuring alerts."
+              },
+              {
+                "title": "Fixed bugs in notification delivery.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues affecting the delivery of notifications."
+              },
+              {
+                "title": "Introduced real-time alerts for predictive events.",
+                "subType": "Enhancement",
+                "description": "Added real-time alerts for monitoring predictive events."
+              },
+              {
+                "title": "Added support for customizable notification channels.",
+                "subType": "Enhancement",
+                "description": "Introduced support for configuring notification channels."
+              }
+            ]
+          },
+          {
+            "title": "Cross-Platform Integration",
+            "subType": "Feature",
+            "description": "Enhancing integration capabilities across multiple platforms.",
+            "children": [
+              {
+                "title": "Corrected issues with API integrations.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with integrating APIs across platforms."
+              },
+              {
+                "title": "Fixed bugs in cross-platform data synchronization.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues affecting data synchronization across platforms."
+              },
+              {
+                "title": "Added support for integrating with IoT devices.",
+                "subType": "Enhancement",
+                "description": "Introduced support for integrating with IoT devices."
+              },
+              {
+                "title": "Implemented seamless data flow between cloud and on-premise systems.",
+                "subType": "Enhancement",
+                "description": "Added features for seamless data flow between cloud and on-premise systems."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

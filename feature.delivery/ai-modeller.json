@@ -1,0 +1,462 @@
+{
+    "product": "AIModeler (Web Application)",
+    "roadmapItems": [
+      {
+        "title": "Release 1.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2023-02-01T00:00:00Z",
+        "endDate": "2023-02-02T00:00:00Z",
+        "style": "blue",
+        "source": "Internal",
+        "product": "AIModeler (Web Application)",
+        "description": "Initial release with model building interface and data preprocessing tools.",
+        "children": [
+          {
+            "title": "Model Building Interface",
+            "subType": "Feature",
+            "description": "Introducing an interface for building machine learning models.",
+            "children": [
+              {
+                "title": "Resolved issues with algorithm selection dropdown.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting the selection of algorithms from dropdown."
+              },
+              {
+                "title": "Fixed bugs in training dataset upload.",
+                "subType": "Bug Fix",
+                "description": "Corrected errors encountered during the upload of training datasets."
+              },
+              {
+                "title": "Added support for drag-and-drop dataset upload.",
+                "subType": "Enhancement",
+                "description": "Introduced drag-and-drop functionality for easier dataset uploads."
+              },
+              {
+                "title": "Introduced real-time progress tracking for model training.",
+                "subType": "Enhancement",
+                "description": "Added features for tracking the progress of model training in real-time."
+              }
+            ]
+          },
+          {
+            "title": "Data Preprocessing Tools",
+            "subType": "Feature",
+            "description": "Providing tools for data preprocessing to prepare datasets for modeling.",
+            "children": [
+              {
+                "title": "Corrected errors in data normalization.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting the normalization of data."
+              },
+              {
+                "title": "Fixed issues with missing value imputation.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues in the imputation of missing values in datasets."
+              },
+              {
+                "title": "Added automated feature scaling.",
+                "subType": "Enhancement",
+                "description": "Introduced automated scaling of features to improve model performance."
+              },
+              {
+                "title": "Implemented support for categorical data encoding.",
+                "subType": "Enhancement",
+                "description": "Added support for encoding categorical data to prepare it for modeling."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 1.3.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2023-08-01T00:00:00Z",
+        "endDate": "2023-08-02T00:00:00Z",
+        "style": "green",
+        "source": "Internal",
+        "product": "AIModeler (Web Application)",
+        "description": "Enhancing algorithm support and model evaluation metrics.",
+        "children": [
+          {
+            "title": "Algorithm Expansion",
+            "subType": "Feature",
+            "description": "Adding new algorithms and improving algorithm performance.",
+            "children": [
+              {
+                "title": "Resolved issues with algorithm performance benchmarking.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting the benchmarking of algorithm performance."
+              },
+              {
+                "title": "Fixed bugs in hyperparameter tuning.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with tuning hyperparameters for algorithms."
+              },
+              {
+                "title": "Added support for ensemble methods.",
+                "subType": "Enhancement",
+                "description": "Introduced support for ensemble methods to improve model performance."
+              },
+              {
+                "title": "Introduced new algorithms such as XGBoost and LightGBM.",
+                "subType": "Enhancement",
+                "description": "Added new algorithms like XGBoost and LightGBM for more options."
+              }
+            ]
+          },
+          {
+            "title": "Model Evaluation Metrics",
+            "subType": "Feature",
+            "description": "Enhancing the evaluation metrics for model performance assessment.",
+            "children": [
+              {
+                "title": "Corrected discrepancies in accuracy calculation.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems causing discrepancies in accuracy calculation."
+              },
+              {
+                "title": "Fixed bugs in confusion matrix display.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues affecting the display of confusion matrices."
+              },
+              {
+                "title": "Added support for precision, recall, and F1-score metrics.",
+                "subType": "Enhancement",
+                "description": "Introduced metrics like precision, recall, and F1-score for better evaluation."
+              },
+              {
+                "title": "Implemented ROC curve and AUC metrics.",
+                "subType": "Enhancement",
+                "description": "Added ROC curve and AUC metrics for evaluating model performance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 2.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2024-03-01T00:00:00Z",
+        "endDate": "2024-03-02T00:00:00Z",
+        "style": "red",
+        "source": "Internal",
+        "product": "AIModeler (Web Application)",
+        "description": "Major update with advanced data preprocessing, deployment options, and user collaboration.",
+        "children": [
+          {
+            "title": "Advanced Data Preprocessing",
+            "subType": "Feature",
+            "description": "Enhancing data preprocessing tools for better model preparation.",
+            "children": [
+              {
+                "title": "Resolved issues with data splitting.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with splitting datasets into training and test sets."
+              },
+              {
+                "title": "Fixed errors in outlier detection.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues in detecting outliers in datasets."
+              },
+              {
+                "title": "Introduced automated feature engineering.",
+                "subType": "Enhancement",
+                "description": "Added automated feature engineering to simplify model building."
+              },
+              {
+                "title": "Added support for time series data preprocessing.",
+                "subType": "Enhancement",
+                "description": "Introduced tools for preprocessing time series data."
+              }
+            ]
+          },
+          {
+            "title": "Deployment Options",
+            "subType": "Feature",
+            "description": "Introducing features for deploying models to various platforms.",
+            "children": [
+              {
+                "title": "Corrected issues with model deployment to cloud services.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with deploying models to cloud services."
+              },
+              {
+                "title": "Fixed bugs in REST API generation.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with generating REST APIs for models."
+              },
+              {
+                "title": "Added one-click deployment to AWS and Azure.",
+                "subType": "Enhancement",
+                "description": "Introduced one-click deployment options for AWS and Azure."
+              },
+              {
+                "title": "Implemented support for containerized deployments using Docker.",
+                "subType": "Enhancement",
+                "description": "Added support for deploying models in Docker containers."
+              }
+            ]
+          },
+          {
+            "title": "User Collaboration",
+            "subType": "Feature",
+            "description": "Enhancing collaboration features for multiple users.",
+            "children": [
+              {
+                "title": "Resolved issues with user permissions.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting user permissions for projects."
+              },
+              {
+                "title": "Fixed bugs in shared project access.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with accessing shared projects."
+              },
+              {
+                "title": "Introduced real-time collaboration on model building.",
+                "subType": "Enhancement",
+                "description": "Added features for real-time collaboration on building models."
+              },
+              {
+                "title": "Added version control for models and datasets.",
+                "subType": "Enhancement",
+                "description": "Introduced version control for managing models and datasets."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 2.4.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2024-09-01T00:00:00Z",
+        "endDate": "2024-09-02T00:00:00Z",
+        "style": "purple",
+        "source": "Internal",
+        "product": "AIModeler (Web Application)",
+        "description": "Enhancements in model interpretability and performance optimization.",
+        "children": [
+          {
+            "title": "Model Interpretability",
+            "subType": "Feature",
+            "description": "Introducing features to enhance the interpretability of models.",
+            "children": [
+              {
+                "title": "Corrected errors in feature importance calculation.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with calculating feature importance."
+              },
+              {
+                "title": "Fixed issues with SHAP values display.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues affecting the display of SHAP values."
+              },
+              {
+                "title": "Added support for LIME (Local Interpretable Model-agnostic Explanations).",
+                "subType": "Enhancement",
+                "description": "Introduced support for LIME to explain model predictions."
+              },
+              {
+                "title": "Introduced partial dependence plots for feature analysis.",
+                "subType": "Enhancement",
+                "description": "Added partial dependence plots to analyze the impact of features."
+              }
+            ]
+          },
+          {
+            "title": "Performance Optimization",
+            "subType": "Feature",
+            "description": "Improving performance for faster and more efficient model training.",
+            "children": [
+              {
+                "title": "Resolved performance bottlenecks during model training.",
+                "subType": "Bug Fix",
+                "description": "Fixed issues causing performance bottlenecks in training models."
+              },
+              {
+                "title": "Fixed bugs in parallel processing.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with parallel processing during model training."
+              },
+              {
+                "title": "Improved training speed with hardware acceleration support.",
+                "subType": "Enhancement",
+                "description": "Enhanced training speed by utilizing hardware acceleration."
+              },
+              {
+                "title": "Optimized memory usage for large datasets.",
+                "subType": "Enhancement",
+                "description": "Improved memory usage to handle large datasets efficiently."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 3.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2025-04-01T00:00:00Z",
+        "endDate": "2025-04-02T00:00:00Z",
+        "style": "orange",
+        "source": "Internal",
+        "product": "AIModeler (Web Application)",
+        "description": "Major update with automated machine learning, enhanced security, and integration with external tools.",
+        "children": [
+          {
+            "title": "Automated Machine Learning (AutoML)",
+            "subType": "Feature",
+            "description": "Introducing automated machine learning for easier model building.",
+            "children": [
+              {
+                "title": "Resolved issues with automated hyperparameter tuning.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with automated tuning of hyperparameters."
+              },
+              {
+                "title": "Fixed errors in pipeline generation.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues affecting the generation of AutoML pipelines."
+              },
+              {
+                "title": "Introduced AutoML for automatic model selection and tuning.",
+                "subType": "Enhancement",
+                "description": "Added AutoML features for automatically selecting and tuning models."
+              },
+              {
+                "title": "Added support for custom AutoML pipelines.",
+                "subType": "Enhancement",
+                "description": "Introduced support for creating custom AutoML pipelines."
+              }
+            ]
+          },
+          {
+            "title": "Enhanced Security",
+            "subType": "Feature",
+            "description": "Improving security features for better data protection.",
+            "children": [
+              {
+                "title": "Corrected vulnerabilities in user authentication.",
+                "subType": "Bug Fix",
+                "description": "Fixed security vulnerabilities in user authentication processes."
+              },
+              {
+                "title": "Fixed issues with data encryption.",
+                "subType": "Bug Fix",
+                "description": "Resolved problems with encrypting data."
+              },
+              {
+                "title": "Implemented role-based access control (RBAC).",
+                "subType": "Enhancement",
+                "description": "Introduced role-based access control to enhance security."
+              },
+              {
+                "title": "Added support for multi-factor authentication.",
+                "subType": "Enhancement",
+                "description": "Introduced multi-factor authentication for added security."
+              }
+            ]
+          },
+          {
+            "title": "Integration with External Tools",
+            "subType": "Feature",
+            "description": "Enhancing integration with external tools for better workflow.",
+            "children": [
+              {
+                "title": "Resolved issues with third-party tool integration.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting the integration with third-party tools."
+              },
+              {
+                "title": "Fixed bugs in data import from external sources.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with importing data from external sources."
+              },
+              {
+                "title": "Added integration with Jupyter Notebooks.",
+                "subType": "Enhancement",
+                "description": "Introduced support for integrating with Jupyter Notebooks."
+              },
+              {
+                "title": "Implemented support for exporting models to ONNX and PMML formats.",
+                "subType": "Enhancement",
+                "description": "Added support for exporting models to ONNX and PMML formats."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 3.3.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2025-12-01T00:00:00Z",
+        "endDate": "2025-12-02T00:00:00Z",
+        "style": "green",
+        "source": "Internal",
+        "product": "AIModeler (Web Application)",
+        "description": "Focused on advanced visualization tools and scalability enhancements.",
+        "children": [
+          {
+            "title": "Advanced Visualization Tools",
+            "subType": "Feature",
+            "description": "Introducing advanced tools for data visualization.",
+            "children": [
+              {
+                "title": "Corrected errors in plot rendering.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting the rendering of plots."
+              },
+              {
+                "title": "Fixed bugs in interactive charts.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with interactive chart functionality."
+              },
+              {
+                "title": "Introduced advanced data visualization libraries.",
+                "subType": "Enhancement",
+                "description": "Added support for advanced libraries to improve data visualization."
+              },
+              {
+                "title": "Added support for interactive dashboards.",
+                "subType": "Enhancement",
+                "description": "Introduced interactive dashboards for better data analysis."
+              }
+            ]
+          },
+          {
+            "title": "Scalability Enhancements",
+            "subType": "Feature",
+            "description": "Improving scalability to support large-scale model training.",
+            "children": [
+              {
+                "title": "Resolved issues with horizontal scaling.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting the horizontal scaling of the application."
+              },
+              {
+                "title": "Fixed bugs in distributed training.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with training models in a distributed environment."
+              },
+              {
+                "title": "Improved support for large-scale model training.",
+                "subType": "Enhancement",
+                "description": "Enhanced features to support training large-scale models efficiently."
+              },
+              {
+                "title": "Added auto-scaling for cloud deployments.",
+                "subType": "Enhancement",
+                "description": "Introduced auto-scaling to handle varying loads in cloud deployments."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
